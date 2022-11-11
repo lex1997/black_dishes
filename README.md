@@ -11,7 +11,7 @@
 ### Инструкция к API
 - `api/v1/foods` - отображает публичное меню ресторана в открытом доступе, работает по принципу ReadOnlyModelViewSet(https://www.django-rest-framework.org/api-guide/viewsets/#readonlymodelviewset), отвечает без JWT токенов(https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html#usage)
 - `api/v1/dishes` - метод для CRUD блюд в меню, работает по принципу ModelViewSet(https://www.django-rest-framework.org/api-guide/viewsets/#modelviewset), отвечает через JWT токены
-- `api/v1/categories` - метод для CRUD блюд в меню, работает по принципу ModelViewSet, отвечает через JWT токены
+- `api/v1/categories` - метод для CRUD категорий в меню, работает по принципу ModelViewSet, отвечает через JWT токены
 
 
 ### Развертывание прод
